@@ -10,13 +10,13 @@ def run():
     tomorrow = today + timedelta(days=1)
 
     # Load matches data
-    if not os.path.isfile('/home/FifaTracker/labtracker/static/data/matches.csv'):
-        os.system('python3 /home/FifaTracker/labtracker/matches.py')
+    if not os.path.isfile('./static/data/matches.csv'):
+        os.system('python3 ./matches.py')
 
-    matches = pd.read_csv('/home/FifaTracker/labtracker/static/data/matches.csv')
+    matches = pd.read_csv('./static/data/matches.csv')
     matches['Date'] = pd.to_datetime(matches['Date'])
 
-    remaining = pd.read_csv('/home/FifaTracker/labtracker/static/data/PlayerTeams.csv')
+    remaining = pd.read_csv('./static/data/PlayerTeams.csv')
     remaining.columns = ['Player','Team','Code','Rank','Remaining']
 
     previous = matches[matches['Date'] < today].sort_values('Date',ascending=False)[['Team A', 'Player A', 'Score', 'Player B', 'Team B']].head(5).to_html(index=False, classes="table table-striped table-dark")
