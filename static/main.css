@@ -1,0 +1,40 @@
+* {
+	font-family: Arial;
+}
+body {
+    background-color: #1b2535 !important;
+}
+#title {
+	height: auto;
+	background: #2e3e59;
+	text-align: center;
+	border-bottom: 1px solid black;
+}
+#today {
+}
+#matches {
+	background: #2e3e59;
+	text-align: center;
+}
+#previous {
+}
+#future {
+}
+#status {
+	border-top: 1px solid black;
+	background: #3a5072;
+	text-align: center;
+}
+footer {
+	text-align: center;
+	padding: 1em;
+	color: white;
+}
+.table td, th, tr {
+	text-align: center !important;
+	vertical-align: center;
+	width: 10%;
+}
+h1, h2 {
+	color: lightgrey !important;
+}
