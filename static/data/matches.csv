@@ -1,0 +1,65 @@
+Date,Team A,Player A,Score,Player B,Team B,Time
+2018-06-14 18:00:00,Russia,Ozan,5-0,Sam,Saudi Arabia,16:00
+2018-06-15 17:00:00,Egypt,Matt R,0-1,David C,Uruguay,13:00
+2018-06-15 18:00:00,Morocco,Ludmila,0-1,Avi,IR Iran,16:00
+2018-06-15 21:00:00,Portugal,Kevin,3-3,Taane,Spain,19:00
+2018-06-16 13:00:00,France,Katie,2-1,Dan,Australia,11:00
+2018-06-16 16:00:00,Argentina,Niamh,1-1,Tapan,Iceland,14:00
+2018-06-16 19:00:00,Peru,John Kelly,0-1,Ben,Denmark,17:00
+2018-06-16 21:00:00,Croatia,Gisela,2-0,Martin,Nigeria,20:00
+2018-06-17 16:00:00,Costa Rica,Bianca,0-1,Lindsay,Serbia,13:00
+2018-06-17 18:00:00,Germany,Matt H,0-1,Melissa,Mexico,16:00
+2018-06-17 21:00:00,Brazil,David B,1-1,Cristian,Switzerland,19:00
+2018-06-18 15:00:00,Sweden,Cesca,1-0,Harry,Korea Republic,13:00
+2018-06-18 18:00:00,Belgium,Pepita,3-0,Tom,Panama,16:00
+2018-06-18 21:00:00,Tunisia,Nuno,1-2,Amy,England,19:00
+2018-06-19 15:00:00,Colombia,Ernest,1-2,Luke,Japan,13:00
+2018-06-19 18:00:00,Poland,Jody,1-2,Matt Y,Senegal,16:00
+2018-06-19 21:00:00,Russia,Ozan,3-1,Matt R,Egypt,19:00
+2018-06-20 15:00:00,Portugal,Kevin,1-0,Ludmila,Morocco,13:00
+2018-06-20 18:00:00,Uruguay,David C,1-0,Sam,Saudi Arabia,16:00
+2018-06-20 21:00:00,IR Iran,Avi,0-1,Taane,Spain,19:00
+2018-06-21 16:00:00,Denmark,Ben,1-1,Dan,Australia,13:00
+2018-06-21 20:00:00,France,Katie,1-0,John Kelly,Peru,16:00
+2018-06-21 21:00:00,Argentina,Niamh,0-3,Gisela,Croatia,19:00
+2018-06-22 15:00:00,Brazil,David B,2-0,Bianca,Costa Rica,13:00
+2018-06-22 18:00:00,Nigeria,Martin,2-0,Tapan,Iceland,16:00
+2018-06-22 20:00:00,Serbia,Lindsay,1-2,Cristian,Switzerland,19:00
+2018-06-23 15:00:00,Belgium,Pepita,5-2,Nuno,Tunisia,13:00
+2018-06-23 18:00:00,Korea Republic,Harry,1-2,Melissa,Mexico,16:00
+2018-06-23 21:00:00,Germany,Matt H,2-1,Cesca,Sweden,19:00
+2018-06-24 15:00:00,England,Amy,6-1,Tom,Panama,13:00
+2018-06-24 20:00:00,Japan,Luke,2-2,Matt Y,Senegal,16:00
+2018-06-24 21:00:00,Poland,Jody,0-3,Ernest,Colombia,19:00
+2018-06-25 18:00:00,Uruguay,David C,3-0,Ozan,Russia,15:00
+2018-06-25 17:00:00,Saudi Arabia,Sam,2-1,Matt R,Egypt,15:00
+2018-06-25 20:00:00,Spain,Taane,2-2,Ludmila,Morocco,19:00
+2018-06-25 21:00:00,IR Iran,Avi,1-1,Kevin,Portugal,19:00
+2018-06-26 17:00:00,Australia,Dan,0-2,John Kelly,Peru,15:00
+2018-06-26 17:00:00,Denmark,Ben,0-0,Katie,France,15:00
+2018-06-26 21:00:00,Nigeria,Martin,1-2,Niamh,Argentina,19:00
+2018-06-26 21:00:00,Iceland,Tapan,1-2,Gisela,Croatia,19:00
+2018-06-27 17:00:00,Korea Republic,Harry,2-0,Matt H,Germany,15:00
+2018-06-27 19:00:00,Mexico,Melissa,0-3,Cesca,Sweden,15:00
+2018-06-27 21:00:00,Serbia,Lindsay,0-2,David B,Brazil,19:00
+2018-06-27 21:00:00,Switzerland,Cristian,2-2,Bianca,Costa Rica,19:00
+2018-06-28 17:00:00,Japan,Luke,0-1,Jody,Poland,15:00
+2018-06-28 18:00:00,Senegal,Matt Y,0-1,Ernest,Colombia,15:00
+2018-06-28 21:00:00,Panama,Tom,1-2,Nuno,Tunisia,19:00
+2018-06-28 20:00:00,England,Amy,0-1,Pepita,Belgium,19:00
+2018-06-30 17:00:00,France,Katie,4-3,Niamh,Argentina,15:00
+2018-06-30 21:00:00,Uruguay,David C,2-1,Kevin,Portugal,19:00
+2018-07-01 17:00:00,Spain,Taane,1-1,Ozan,Russia,15:00
+2018-07-01 21:00:00,Croatia,Gisela,1-1,Ben,Denmark,19:00
+2018-07-02 18:00:00,Brazil,David B,2-0,Melissa,Mexico,15:00
+2018-07-02 21:00:00,Belgium,Pepita,3-2,Luke,Japan,19:00
+2018-07-03 17:00:00,Sweden,Cesca,1-0,Cristian,Switzerland,15:00
+2018-07-03 21:00:00,Colombia,Ernest,1-1,Amy,England,19:00
+2018-07-06 17:00:00,Uruguay,David C,0-2,Katie,France,15:00
+2018-07-06 21:00:00,Brazil,David B,1-2,Pepita,Belgium,19:00
+2018-07-07 18:00:00,Sweden,Cesca,0-2,Amy,England,15:00
+2018-07-07 21:00:00,Russia,Ozan,2-2,Gisela,Croatia,19:00
+2018-07-10 21:00:00,France,Katie,1-0,Pepita,Belgium,19:00
+2018-07-11 21:00:00,Croatia,Gisela,2-1,Amy,England,19:00
+2018-07-14 17:00:00,Belgium,Pepita,2-0,Amy,England,15:00
+2018-07-15 18:00:00,France,Katie,4-2,Gisela,Croatia,16:00
