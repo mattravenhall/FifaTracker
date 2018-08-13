@@ -1,5 +1,4 @@
 # World Cup API
-
 import os
 import requests
 import pandas as pd
@@ -7,18 +6,8 @@ from bs4 import BeautifulSoup
 from datetime import datetime
 from datetime import timedelta
 
-## Read in teams, if it doesn't exist run the randomiser.
-if not os.path.isfile('/home/FifaTracker/labtracker/static/data/PlayerTeams.csv'):
-	os.system('python3 /home/FifaTracker/labtracker/randomiser.py')
-
 # Read in teams (Will need just Player, Team, and Remaining Status)
-teams = pd.read_csv('/home/FifaTracker/labtracker/static/data/PlayerTeams.csv')
-
-# # Who has who
-# whohaswho = teams.groupby(['Player'])['Team'].apply(lambda x: ', '.join(x)).reset_index()
-# remaining = teams[['Player','Rank']]
-# whohaswho['Remaining'] = remaining['Rank'].values
-# whohaswho.transpose().to_csv('/home/FifaTracker/labtracker/static/data/remaining.csv', index=False)
+teams = pd.read_csv('./static/data/PlayerTeams.csv')
 
 ## Pull match data from fifa website
 fixtures_url = 'https://www.fifa.com/worldcup/matches/'
@@ -64,4 +53,4 @@ matches = pd.merge(matches, teams[['Team','Player']], left_on='Team B', right_on
 matches = matches.rename(columns = {'Player': 'Player B'})
 matches = matches[['Date','Team A', 'Player A', 'Score', 'Player B', 'Team B','Time']]
 
-matches.to_csv('/home/FifaTracker/labtracker/static/data/matches.csv', index=False)
+matches.to_csv('./static/data/matches.csv', index=False)
