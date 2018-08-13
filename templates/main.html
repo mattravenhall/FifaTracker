@@ -1,0 +1,48 @@
+<html>
+	<header>
+	    <title>Fifa Tracker</title>
+		<link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">
+		<link rel="stylesheet" href="{{ url_for('static', filename='bootstrap.min.css') }}">
+	</header>
+	<body>
+		<div class="container">
+	        <div class="row" id="title">
+				<div class="col-lg-12 mb-12"><h1>Lab Fifa World Cup 2018 Sweepstake Tracker</h1></div>
+	        </div>
+			<div class="row" id="matches">
+				<div class="col-lg-2 mb-2" id="today"></div>
+				<div class="col-lg-8 mb-8 col-centered" id="today">
+					<h2>Today's Matches</h2>
+					{% if current %}
+						{{ current|safe }}
+					{% endif %}
+				</div>
+				<div class="col-lg-2 mb-2" id="today"></div>
+			</div>
+			<div class="row" id="matches">
+				<div class="col-lg-6 mb-6 col-centered" id="previous">
+					<h2>Previous</h2>
+					{% if previous %}
+						{{ previous|safe }}
+					{% endif %}
+				</div>
+				<div class="col-lg-6 mb-6 col-centered" id="future">
+					<h2>Upcoming</h2>
+					{% if future %}
+						{{ future|safe }}
+					{% endif %}
+				</div>
+			</div>
+			<div class="row" id="status">
+				<div class="col-lg-12 mb-12 col-centered" id="today">
+					<h2>Teams Remaining</h2>
+					{% if remaining %}
+						{{ remaining|safe }}
+					{% endif %}
+				</div>
+			</div>
+		</div>
+	</body>
+	<footer>Created by <a href="https://mattravenhall.github.io">Matt R</a>.</footer>
+</html>
+
